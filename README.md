@@ -80,4 +80,4 @@ Aqui devem vir as informações de licenciamento do projeto
 
 ## Créditos
 
-*template do programa Rocketman
+* template do programa Rocketman
