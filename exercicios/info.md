@@ -18,4 +18,4 @@
 
 ## mini_projeto_5
 
-* 
+* Projeto que pega uma lista e verifica se o número inserido na lista é par ou impar
