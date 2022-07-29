@@ -7,3 +7,15 @@
 ## mini_projeto_2
 
 * Ele traz de forma simples, uma função que retorna no terminal o resultado do maior número
+
+## mini_projeto_3
+
+* É um programa simples de um jogo chamado FizzBuzz, onde ele retorna Fizz ou Buzz ou FizzBuzz se o número for divisível por 3 ou 5 ou os dois respectivamente.
+
+## mini_projeto_4
+
+* Projeto que verifica se a velocidade excede o limite estabelecido e aplica a contagem correta de pontos que devem ser deduzidos da carteira ou se ela precisa ser suspensa.
+
+## mini_projeto_5
+
+* 
