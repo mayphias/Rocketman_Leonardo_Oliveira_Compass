@@ -19,3 +19,15 @@
 ## mini_projeto_5
 
 * Projeto que pega uma lista e verifica se o número inserido na lista é par ou impar
+
+## mini_projeto_6
+
+* Ler as propriedades de um objeto e retornar as propriedades se estas tiverem valores de string
+
+## mini_projeto_7
+
+* Pegar um numero x fatorial e fazer a soma dos valores que forem divisiveis por 3 ou 5
+
+## mini_projeto_8
+
+* 

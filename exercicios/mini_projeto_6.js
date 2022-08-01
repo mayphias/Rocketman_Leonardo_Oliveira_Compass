@@ -26,3 +26,12 @@ function IsJsonString(str) {  //função que testa se a propriedade do obj é um
 }
 
 selectStrg(movie);  //seleciona a função a ser executada e a variavel que ele vai trabalhar, no caso (movie)
+
+//jeito mais simples de fazer a mesma coisa:
+// function selectStrg(filme){
+    //for prop in filme{
+        //if (typeof filme[prop] === 'string'{
+            //console.log(prop, filme[prop])
+       // }
+  //  }
+//}
