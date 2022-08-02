@@ -26,8 +26,32 @@
 
 ## mini_projeto_7
 
-* Pegar um numero x fatorial e fazer a soma dos valores que forem divisiveis por 3 ou 5
+* Pegar um numero x fatorial e faz a soma dos valores que forem divisiveis por 3 ou 5
 
 ## mini_projeto_8
 
-* 
+* Pega um conjunto (array) de notas e faz a media simples e compara aquele valor no estilo americano de atribuir notas F,D,C,B,A.
+
+## mini_projeto_9
+
+* Criar uma quantidade crescente de '*' no console, dado um fatorial x!
+
+## mini_projeto_10
+
+* criar uma função para mostrar numeros primos dado um numero limite
+
+## mini_projeto_11
+
+* criar uma função que cria objetos de endereço
+
+## mini_projeto_12
+
+* Cria duas funções que comparam valores de propriedades de objetos e avaliam se são iguais, e cria uam seunda função que avalia se os objetos ocupam o mesmo espaço de memoria
+
+## mini_projeto_13
+
+* criar uma função que cria objetos de postagem de um blog
+
+## mini_projeto_14
+
+* criar um array de objetos para que possa ser utilizado parecido com a faixa de preço do mercado livre
