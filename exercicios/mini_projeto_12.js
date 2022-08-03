@@ -13,23 +13,23 @@ function novoEndereco(rua, cidade, cid, CEP, num){  //função copiada do mini_p
     return(endereco);
 }
 
-function comparaEndereco(pessoa1,pessoa2){
+function comparaEndereco(pessoa1,pessoa2){    //função que compara aspectos dos endereços de dois clientes
     for (const prop in pessoa1){
-        if (pessoa1[prop] === pessoa2[prop]) {
-            console.log(pessoa1[prop],'==', pessoa2[prop], '?', true);
+        if (pessoa1[prop] === pessoa2[prop]) {                     //caso o aspecto seja igual
+            console.log(pessoa1[prop],'==', pessoa2[prop], '?', true);  //retorna no console qual aspecto estava sendo testado e o resultado true
         }
         else{
-            console.log(pessoa1[prop],'==', pessoa2[prop], '?', false);
+            console.log(pessoa1[prop],'==', pessoa2[prop], '?', false);  //caso sejam diferentes, retorna qual aspecto estava sendo testado e o resultado: false.
         }
     }
 }
 
-function enderecoMemoria(pessoa1,pessoa2){
+function enderecoMemoria(pessoa1,pessoa2){   //função que retorna true caso as variaveis estejam utilizando o mesmo espaço de memoria
     return pessoa1 === pessoa2;
 }
 
-let cliente1 = novoEndereco('Riachuelo', 'Rio de Janeiro', 'RJ', 20230015, 260);
+let cliente1 = novoEndereco('Riachuelo', 'Rio de Janeiro', 'RJ', 20230015, 260); //criação dos clientes com as informações desejadas
 let cliente2 = novoEndereco('Riachuelo', 'Rio de Janeiro', 'RJ', 20230015, 263);
 
-comparaEndereco(cliente1, cliente2);
-console.log('endereço de memoria iguais ? ' + enderecoMemoria(cliente1, cliente2));
+comparaEndereco(cliente1, cliente2);  //chama a função que compara os endereços dos clientes 
+console.log('endereço de memoria iguais ? ' + enderecoMemoria(cliente1, cliente2));  //chama a função que verifica se estão no mesmo espaço de memoria
