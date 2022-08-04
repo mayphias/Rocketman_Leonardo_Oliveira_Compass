@@ -26,14 +26,19 @@ export default class calculadora {
         return(a**b);
     }
     //operação de fatorial de um numero
-    static rFact (num){                       //https://stackoverflow.com/questions/3959211/what-is-the-fastest-factorial-function-in-javascript
+    static cfact (num){                       //https://stackoverflow.com/questions/3959211/what-is-the-fastest-factorial-function-in-javascript
         if (num === 0){
-           return (1); }
+           return (1); 
+        }
         else{
-         return (num * rFact( num - 1 )); }
+         return (num * this.cfact( num - 1 )); 
+        }     //função recursiva
     }
     //operação de raiz quadrada
     static sqrt (a){
+        if (a < 0){
+            return('ERROR, imaginary numbers not supported.');
+        }
         return(Math.sqrt(a));
     }
 
