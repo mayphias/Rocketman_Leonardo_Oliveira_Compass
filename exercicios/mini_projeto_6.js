@@ -16,7 +16,7 @@ function selectStrg(filme){   //função que imprime no console as partes das pr
     }
 }
 
-function IsJsonString(str) {  //função que testa se a propriedade do obj é uma string, retirado de: https://www.codegrepper.com/code-examples/javascript/javascript+check+if+object+is+string
+function IsJsonString(str) {  //função que testa se a propriedade do obj é uma string, retirado de: https://www.codegrepper.com/code-examples/javascript/javascript+check+if+object+is+string dia 02/08/2022
     try {                     // o programa tenta executar o codigo, se passar ele retorna verdadeiro no catch
         JSON.parse(str);
     } catch (e) {
