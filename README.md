@@ -5,7 +5,7 @@ Nós arquivos aqui presentes nesse reposítorio se encontram exercícios feitos 
 
 [![NPM](https://img.shields.io/badge/license-MIT-brightgreen)](https://github.com/mayphias/Rocketman_Leonardo_Oliveira_Compass/blob/development/license)
 
-[![NPM](https://img.shields.io/badge/Version-0.2-blue)]
+![NPM](https://img.shields.io/badge/Version-0.2-blue)
 
 Nós arquivos aqui presentes nesse reposítorio se encontram exercícios feitos em JavaScript para melhor entender a linguagem, exercícios esses feitos do canal: __Dev Aprender__ do youtube.
 link video utilizado:   https://www.youtube.com/watch?v=i6Oi-YtXnAU
