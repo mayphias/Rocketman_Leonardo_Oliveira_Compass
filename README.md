@@ -2,6 +2,12 @@
 # __Apredizado de testes e JavaScript via Mocha e Chai__
 
 Nós arquivos aqui presentes nesse reposítorio se encontram exercícios feitos em JavaScript para melhor entender a linguagem, exercícios esses feitos do __canal: Dev Aprender__ do youtube.
+
+[![NPM](https://img.shields.io/badge/license-MIT-brightgreen)](https://github.com/mayphias/Rocketman_Leonardo_Oliveira_Compass/blob/development/license)
+
+[![NPM](https://img.shields.io/badge/Version-0.2-blue)]
+
+Nós arquivos aqui presentes nesse reposítorio se encontram exercícios feitos em JavaScript para melhor entender a linguagem, exercícios esses feitos do canal: __Dev Aprender__ do youtube.
 link video utilizado:   https://www.youtube.com/watch?v=i6Oi-YtXnAU
 E um projeto de testes de um programa feito em JavaScript e bateria de testes feita também em JavaScript utilizando a biblioteca Mocha & Chai.
 
