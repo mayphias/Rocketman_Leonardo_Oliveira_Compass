@@ -72,5 +72,9 @@ Aqui devem vir as informações de licenciamento do projeto
 
 ## Créditos
 
+<<<<<<< HEAD
 * utilizando o template README do programa Rocketman
 * Agradeço a equipe da compass.uol por esse momento de aprendizagem
+=======
+* template do programa Rocketman
+>>>>>>> bc612c5 (movi o * como test basico)
