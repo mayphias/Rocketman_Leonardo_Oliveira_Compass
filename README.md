@@ -1,78 +1,70 @@
 # Rocketman_Leonardo_Oliveira_Compass
-# Titulo do Projeto
+# __Apredizado de testes e JavaScript via Mocha e Chai__
 
-Aqui vai uma breve descrição do projeto
+Nós arquivos aqui presentes nesse reposítorio se encontram exercícios feitos em JavaScript para melhor entender a linguagem, exercícios esses feitos do __canal: Dev Aprender__ do youtube.
+link video utilizado:   https://www.youtube.com/watch?v=i6Oi-YtXnAU
+E um projeto de testes de um programa feito em JavaScript e bateria de testes feita também em JavaScript utilizando a biblioteca Mocha & Chai.
 
 ## Apresentação
 
-Essas instruções irão auxiliar a obtenção de uma cópia do projeto em sua máquina local para desenvolvimento para desenvolvimento e testes.
+Para a obtenção desse projeto e testagem na sua própria máquina basta ir na opção do github de :Code>Download_zip, terminado o download descompacte os arquivos em uma pasta de sua preferencia.
+Os exercícios e o programa teste assim como o teste realizado via mocha e chai rodam via terminal e não possuem interface gráfica.
+Você pode encontrar arquivos info.md contendo informações sobre os arquivos presentes nas pastas tirando a pasta /mocha_chai/node_modules que é a pasta de recursos dos scripts de mocha e chai utilizados.
 
 ### Pré requisitos
 
-Aqui são listados os pré requisitos do projeto, assim como os comandos e links para a instalação dos mesmos
+Para rodar os programas neste repositório é necessário ter instalado a versão 16.15.0 ou superior do NodeJavaScript presente no site: https://nodejs.org/en/ 
 
-```
-compatível com versão x do sistema operacional y
-versão x do node deve estar instalada
-```
+Para Windows:
+Vá no site do NodeJS e baixe a versão recomendada ou a mais recente, sigua o passo a passo e conclua a instalação.
+Aconselho utilização do VsCode para melhor utilizar os códigos nessa plataforma, já que essa IDE já tem um terminal integrado.
+site do VsCode: https://code.visualstudio.com 
+Para instalação sigua o passo a passo do site.
 
-### Instalação
+Para Linux:
+Na maioria das distribuições de linux já vem com NodeJS instalado, verifique no terminal com:
+$ node --version
 
-Aqui vai um passo a passo para que o projeto possa ser executado
+caso dê erro, veja qual é o seu gerenciador de pacotes e instale, exemplo (talvez precise de permissão de administrador (sudo)):
+$ dnf install nodejs
 
-Instalar os node modules
-
-```
-npm install
-```
-
-Instalar o cypress
-
-```
-npm install cypress
-```
 
 ## Execução dos testes
 
-Explicação de como executar os testes automatizados
+Para a execução dos testes abra o terminal na pasta (ou entre no terminal integrado do VsCode), para executar os exercicios de JavaScript vá para /exercicios com o comando cd. Ex:
+$ cd ./exercicios
+E para executar os testes utilize, exemplo mini_projeto_5.js:
+$ node mini_projeto_5.js
 
-```
-npm run cy:test
-```
+Os arquivos estão comentados e as variaveis modificaveis para utilização estão demarcadas.
+
+Para a realização da bateria de testes navegue até a pasta /test com o comando cd.
+e digite:
+$ npm test
+$
+Com isso o arquivo test_calculadora.spec.js deve rodar via mocha e apresentar no terminal os testes no script listados.
 
 ### Break down into end to end tests
 
-Explicação sobre os tipos de testes realizados e como consultar os reports gerados
+Essa bateria de testes faz a testagem do script calculadora.js e verifica se as suas funções são funcionais com diferentes tipos de INPUT para cada função presente.
 
-```
-Aqui pode ser informada uma pasta para acesso dos reports ou algum comando necessário
-```
+Esses testes não testam a capacidade funcional extrema Ex: Big.Int, arredondamento de decimais grandes, etc.
 
-## Deployment
-
-Informar aqui como realizar os PR's para atualização do projeto:
-
-```
-git checkout -b "nome_da_branch"
-git commit -m "mensagem do commit"
-git push origin nome_da_branch:nome_da_branch
-```
 
 ## Técnologias utilizadas
 Aqui são listadas as técnologias utilizadas no projeto
 
-* [Cypress](https://www.cypress.io/) - The test framework used
-* [Cucumber](https://cucumber.io/) - BDD + geração de relatório de teste
+* NodeJs: https://nodejs.org/en/ 
+* Mocha: https://mochajs.org
+* Chai: https://www.chaijs.com
 
-## Contribuição
-
-Nesta sessão são descritas as políticas para novas contribuições e os valores analisados para aceitação das mesmas
 
 ## Autores
 
-* **Autor Aqui** - *Entrega inicial* - [Link para a raiz do projeto no git](https://github.com/)
+* **Leonardo da Silva Oliveira** - *05/08/2022* - [Link para a raiz do projeto no git](https://github.com/https://github.com/mayphias/Rocketman_Leonardo_Oliveira_Compass)
 
-Importante listar os  [contribuintes](https://github.com/seu/projeto/contributors) que participaram deste projeto
+Shoutout para: rafaelcastrocouto -> https://stackoverflow.com/questions/3959211/what-is-the-fastest-factorial-function-in-javascript que parte do código ideia da parte de fatorial da calculadora utilizada no teste foi retirado do comentário dele.
+
 
 ## License
 
@@ -80,4 +72,5 @@ Aqui devem vir as informações de licenciamento do projeto
 
 ## Créditos
 
-* template do programa Rocketman
+* utilizando o template README do programa Rocketman
+* Agradeço a equipe da compass.uol por esse momento de aprendizagem
